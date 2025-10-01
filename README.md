@@ -8,9 +8,17 @@ This project demonstrates domain-specific fine-tuning of a general-purpose code 
 
 ## Results
 
-Training Loss: 0.028 to 0.018, Validation Loss: 0.021 to 0.018, Training Time: 10h 18m, Dataset Size: 29,720 examples, Trainable Parameters: 9M (0.30%)
+
+| Metric | Value |
+|--------|-------|
+| Training Loss | 0.028 → 0.018 |
+| Validation Loss | 0.021 → 0.018 |
+| Training Time | 10h 18m |
+| Dataset Size | 29,720 examples |
+| Trainable Parameters | 9M (0.30%) |
 
 Performance Comparison: Base Model cannot generate STM32 code (produces generic text), Fine-tuned Model generates professional STM32 HAL code with 95%+ syntax correctness
+
 
 ## Model and Dataset
 
